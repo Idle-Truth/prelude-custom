@@ -44,3 +44,9 @@
 
 ;; most of this file is copied from here
 ;; https://codeberg.org/daviwil/dotfiles/src/branch/master/.emacs.d/modules/dw-keys-evil.el
+
+(use-package evil-commentary
+  :ensure t
+  :after evil
+  :config
+  (evil-commentary-mode t))

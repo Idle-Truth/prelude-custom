@@ -84,7 +84,7 @@
 ;; (require 'prelude-lua)
 ;; (require 'prelude-ocaml)
 (require 'prelude-perl)
-;; (require 'prelude-python)
+(require 'prelude-python)
 ;; (require 'prelude-racket)
 ;; (require 'prelude-ruby)
 ;; (require 'prelude-rust)

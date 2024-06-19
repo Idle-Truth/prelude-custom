@@ -15,6 +15,7 @@
   (interactive)
   (all-the-icons-dired-mode 1))
 
+
 ;; dired configs
 (use-package dired
   :ensure nil

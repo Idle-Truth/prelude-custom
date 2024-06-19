@@ -14,6 +14,12 @@
       (select-frame-set-input-focus frame)
       (select-window win))))
 
+(defun my/dired-go-home ()
+  (interactive)
+  (dired "~"))
+
+
+
 ;; create leader-key binds using function from preload/leader-key-definer.el
 (leader-keybind
   ;; files
@@ -27,6 +33,8 @@
   "dd" '(find-file :which-key "find file")
   "dr" '(recentf :which-key "recent files")
   "dj" '(dired-jump :which-key "dired jump")
+  "dh" '(my/dired-go-home :which-key "home")
+  "db" '(dashboard-open :which-key "dashboard")
   ;; buffers
   "k" '(kill-current-buffer :which-key "kill this buffer")
   "K" '(kill-buffer :which-key "kill buffer")
