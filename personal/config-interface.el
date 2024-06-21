@@ -7,7 +7,7 @@
 (use-package marginalia
   :ensure t
   :config
-  (marginalia-mode))
+  (marginalia-mode 1))
 
 ;; act upon a selection item
 (use-package embark
